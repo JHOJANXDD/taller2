@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/estilosCalculadora.css">
+</head>
+<body>
+	<div class="Numeros">
+        <label>Ingrese un numero:</label>
+        <input type="text" id="numero1"/><br/><br/>
+        <label>Ingrese un numero: </label>
+        <input type="text" id="numero2"/><br/><br/>
+    
+        <select class="select" id="operaciones">
+            <option value="suma">SUMA</option>
+            <option value="resta">RESTA</option>
+            <option value="division">DIVISION</option>
+            <option value="multiplicacion">MULTIPLICACION</option>
+        </select>        
+        <hr>
+        <button onclick="calculadora()">RESULTADO</button>
+        <input class="Resultado_Final" type="text" id="resultado"/>
+        <script src="js/calculadora.js"></script>
+ </div> 
+
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+	</header>
+	<div class="capa"></div>
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<br>
+			<br>	
+			<a href="Calculadora.html">CALCULADORA (Seleccionado)</a>
+			<a href="Palabras.html">PALABRAS</a>
+			<a href="Grados.html">GRADOS 3</a>
+			<a href="">EJERCICIO 4</a>
+			<br>
+			<br>
+			<br>
+			<br>
+            <br>
+            <br>
+            <br>
+			<br>
+			<a href="Index.html">Volver</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+
+
+</body>
+</html>
